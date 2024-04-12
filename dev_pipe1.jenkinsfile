@@ -1,0 +1,4 @@
+stage ("Update dashboard") {
+    println(params.data)
+    currentBuild.description = params.data
+}
